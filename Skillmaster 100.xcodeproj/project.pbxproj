@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		853ADFB81D48E08F00F05271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFB71D48E08F00F05271 /* AppDelegate.swift */; };
+		853ADFBA1D48E08F00F05271 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFB91D48E08F00F05271 /* FirstViewController.swift */; };
+		853ADFBC1D48E08F00F05271 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFBB1D48E08F00F05271 /* SecondViewController.swift */; };
+		853ADFBF1D48E08F00F05271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853ADFBD1D48E08F00F05271 /* Main.storyboard */; };
+		853ADFC11D48E08F00F05271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853ADFC01D48E08F00F05271 /* Assets.xcassets */; };
+		853ADFC41D48E08F00F05271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853ADFC21D48E08F00F05271 /* LaunchScreen.storyboard */; };
+		853ADFCF1D48E08F00F05271 /* Skillmaster_100Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFCE1D48E08F00F05271 /* Skillmaster_100Tests.swift */; };
+		853ADFDA1D48E08F00F05271 /* Skillmaster_100UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFD91D48E08F00F05271 /* Skillmaster_100UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		853ADFCB1D48E08F00F05271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853ADFAC1D48E08F00F05271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853ADFB31D48E08F00F05271;
+			remoteInfo = "Skillmaster 100";
+		};
+		853ADFD61D48E08F00F05271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853ADFAC1D48E08F00F05271 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853ADFB31D48E08F00F05271;
+			remoteInfo = "Skillmaster 100";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		853ADFB41D48E08F00F05271 /* Skillmaster 100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skillmaster 100.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		853ADFB71D48E08F00F05271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		853ADFB91D48E08F00F05271 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		853ADFBB1D48E08F00F05271 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		853ADFBE1D48E08F00F05271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		853ADFC01D48E08F00F05271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		853ADFC31D48E08F00F05271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		853ADFC51D48E08F00F05271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853ADFCA1D48E08F00F05271 /* Skillmaster 100Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skillmaster 100Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		853ADFCE1D48E08F00F05271 /* Skillmaster_100Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillmaster_100Tests.swift; sourceTree = "<group>"; };
+		853ADFD01D48E08F00F05271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853ADFD51D48E08F00F05271 /* Skillmaster 100UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skillmaster 100UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		853ADFD91D48E08F00F05271 /* Skillmaster_100UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillmaster_100UITests.swift; sourceTree = "<group>"; };
+		853ADFDB1D48E08F00F05271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		853ADFB11D48E08F00F05271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853ADFC71D48E08F00F05271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853ADFD21D48E08F00F05271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		853ADFAB1D48E08F00F05271 = {
+			isa = PBXGroup;
+			children = (
+				853ADFB61D48E08F00F05271 /* Skillmaster 100 */,
+				853ADFCD1D48E08F00F05271 /* Skillmaster 100Tests */,
+				853ADFD81D48E08F00F05271 /* Skillmaster 100UITests */,
+				853ADFB51D48E08F00F05271 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		853ADFB51D48E08F00F05271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				853ADFB41D48E08F00F05271 /* Skillmaster 100.app */,
+				853ADFCA1D48E08F00F05271 /* Skillmaster 100Tests.xctest */,
+				853ADFD51D48E08F00F05271 /* Skillmaster 100UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		853ADFB61D48E08F00F05271 /* Skillmaster 100 */ = {
+			isa = PBXGroup;
+			children = (
+				853ADFB71D48E08F00F05271 /* AppDelegate.swift */,
+				853ADFB91D48E08F00F05271 /* FirstViewController.swift */,
+				853ADFBB1D48E08F00F05271 /* SecondViewController.swift */,
+				853ADFBD1D48E08F00F05271 /* Main.storyboard */,
+				853ADFC01D48E08F00F05271 /* Assets.xcassets */,
+				853ADFC21D48E08F00F05271 /* LaunchScreen.storyboard */,
+				853ADFC51D48E08F00F05271 /* Info.plist */,
+			);
+			path = "Skillmaster 100";
+			sourceTree = "<group>";
+		};
+		853ADFCD1D48E08F00F05271 /* Skillmaster 100Tests */ = {
+			isa = PBXGroup;
+			children = (
+				853ADFCE1D48E08F00F05271 /* Skillmaster_100Tests.swift */,
+				853ADFD01D48E08F00F05271 /* Info.plist */,
+			);
+			path = "Skillmaster 100Tests";
+			sourceTree = "<group>";
+		};
+		853ADFD81D48E08F00F05271 /* Skillmaster 100UITests */ = {
+			isa = PBXGroup;
+			children = (
+				853ADFD91D48E08F00F05271 /* Skillmaster_100UITests.swift */,
+				853ADFDB1D48E08F00F05271 /* Info.plist */,
+			);
+			path = "Skillmaster 100UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		853ADFB31D48E08F00F05271 /* Skillmaster 100 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853ADFDE1D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100" */;
+			buildPhases = (
+				853ADFB01D48E08F00F05271 /* Sources */,
+				853ADFB11D48E08F00F05271 /* Frameworks */,
+				853ADFB21D48E08F00F05271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Skillmaster 100";
+			productName = "Skillmaster 100";
+			productReference = 853ADFB41D48E08F00F05271 /* Skillmaster 100.app */;
+			productType = "com.apple.product-type.application";
+		};
+		853ADFC91D48E08F00F05271 /* Skillmaster 100Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853ADFE11D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100Tests" */;
+			buildPhases = (
+				853ADFC61D48E08F00F05271 /* Sources */,
+				853ADFC71D48E08F00F05271 /* Frameworks */,
+				853ADFC81D48E08F00F05271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853ADFCC1D48E08F00F05271 /* PBXTargetDependency */,
+			);
+			name = "Skillmaster 100Tests";
+			productName = "Skillmaster 100Tests";
+			productReference = 853ADFCA1D48E08F00F05271 /* Skillmaster 100Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		853ADFD41D48E08F00F05271 /* Skillmaster 100UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853ADFE41D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100UITests" */;
+			buildPhases = (
+				853ADFD11D48E08F00F05271 /* Sources */,
+				853ADFD21D48E08F00F05271 /* Frameworks */,
+				853ADFD31D48E08F00F05271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853ADFD71D48E08F00F05271 /* PBXTargetDependency */,
+			);
+			name = "Skillmaster 100UITests";
+			productName = "Skillmaster 100UITests";
+			productReference = 853ADFD51D48E08F00F05271 /* Skillmaster 100UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		853ADFAC1D48E08F00F05271 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bmw;
+				TargetAttributes = {
+					853ADFB31D48E08F00F05271 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					853ADFC91D48E08F00F05271 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 853ADFB31D48E08F00F05271;
+					};
+					853ADFD41D48E08F00F05271 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 853ADFB31D48E08F00F05271;
+					};
+				};
+			};
+			buildConfigurationList = 853ADFAF1D48E08F00F05271 /* Build configuration list for PBXProject "Skillmaster 100" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 853ADFAB1D48E08F00F05271;
+			productRefGroup = 853ADFB51D48E08F00F05271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				853ADFB31D48E08F00F05271 /* Skillmaster 100 */,
+				853ADFC91D48E08F00F05271 /* Skillmaster 100Tests */,
+				853ADFD41D48E08F00F05271 /* Skillmaster 100UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		853ADFB21D48E08F00F05271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853ADFC41D48E08F00F05271 /* LaunchScreen.storyboard in Resources */,
+				853ADFC11D48E08F00F05271 /* Assets.xcassets in Resources */,
+				853ADFBF1D48E08F00F05271 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853ADFC81D48E08F00F05271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853ADFD31D48E08F00F05271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		853ADFB01D48E08F00F05271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853ADFBC1D48E08F00F05271 /* SecondViewController.swift in Sources */,
+				853ADFB81D48E08F00F05271 /* AppDelegate.swift in Sources */,
+				853ADFBA1D48E08F00F05271 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853ADFC61D48E08F00F05271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853ADFCF1D48E08F00F05271 /* Skillmaster_100Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853ADFD11D48E08F00F05271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853ADFDA1D48E08F00F05271 /* Skillmaster_100UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853ADFCC1D48E08F00F05271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853ADFB31D48E08F00F05271 /* Skillmaster 100 */;
+			targetProxy = 853ADFCB1D48E08F00F05271 /* PBXContainerItemProxy */;
+		};
+		853ADFD71D48E08F00F05271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853ADFB31D48E08F00F05271 /* Skillmaster 100 */;
+			targetProxy = 853ADFD61D48E08F00F05271 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		853ADFBD1D48E08F00F05271 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853ADFBE1D48E08F00F05271 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		853ADFC21D48E08F00F05271 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853ADFC31D48E08F00F05271 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		853ADFDC1D48E08F00F05271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		853ADFDD1D48E08F00F05271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		853ADFDF1D48E08F00F05271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Skillmaster 100/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		853ADFE01D48E08F00F05271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Skillmaster 100/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		853ADFE21D48E08F00F05271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Skillmaster 100Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skillmaster 100.app/Skillmaster 100";
+			};
+			name = Debug;
+		};
+		853ADFE31D48E08F00F05271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Skillmaster 100Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skillmaster 100.app/Skillmaster 100";
+			};
+			name = Release;
+		};
+		853ADFE51D48E08F00F05271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Skillmaster 100UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Skillmaster 100";
+			};
+			name = Debug;
+		};
+		853ADFE61D48E08F00F05271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Skillmaster 100UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Skillmaster 100";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		853ADFAF1D48E08F00F05271 /* Build configuration list for PBXProject "Skillmaster 100" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853ADFDC1D48E08F00F05271 /* Debug */,
+				853ADFDD1D48E08F00F05271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853ADFDE1D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853ADFDF1D48E08F00F05271 /* Debug */,
+				853ADFE01D48E08F00F05271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		853ADFE11D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853ADFE21D48E08F00F05271 /* Debug */,
+				853ADFE31D48E08F00F05271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		853ADFE41D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853ADFE51D48E08F00F05271 /* Debug */,
+				853ADFE61D48E08F00F05271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 853ADFAC1D48E08F00F05271 /* Project object */;
+}
