@@ -20,6 +20,9 @@ class SkillSearchModel: NSObject {
         let readAccountsRequest = NSMutableURLRequest(URL: NSURL(string: URL)!)
         
         let session = NSURLSession.sharedSession()
+        let semaphore = Semaphore(value: 0);
+        
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) { () -> Void in
         
         let task = session.dataTaskWithRequest(readAccountsRequest, completionHandler: {jsonData, response, error -> Void in
             if((error) != nil) {
@@ -48,8 +51,13 @@ class SkillSearchModel: NSObject {
             }
             
         })
+            semaphore.signal();
+        
         
         task.resume()
+        }
+        
+        semaphore.wait();
         return accounts
     }
 
