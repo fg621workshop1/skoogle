@@ -16,6 +16,7 @@
 		853ADFCF1D48E08F00F05271 /* Skillmaster_100Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFCE1D48E08F00F05271 /* Skillmaster_100Tests.swift */; };
 		853ADFDA1D48E08F00F05271 /* Skillmaster_100UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFD91D48E08F00F05271 /* Skillmaster_100UITests.swift */; };
 		853ADFE81D48F7EA00F05271 /* SkillSpeichernModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFE71D48F7EA00F05271 /* SkillSpeichernModel.swift */; };
+		853ADFEA1D49FD2200F05271 /* 2000px-BMW.png in Resources */ = {isa = PBXBuildFile; fileRef = 853ADFE91D49FD2200F05271 /* 2000px-BMW.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		853ADFD91D48E08F00F05271 /* Skillmaster_100UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillmaster_100UITests.swift; sourceTree = "<group>"; };
 		853ADFDB1D48E08F00F05271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		853ADFE71D48F7EA00F05271 /* SkillSpeichernModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillSpeichernModel.swift; sourceTree = "<group>"; };
+		853ADFE91D49FD2200F05271 /* 2000px-BMW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2000px-BMW.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		853ADFB61D48E08F00F05271 /* Skillmaster 100 */ = {
 			isa = PBXGroup;
 			children = (
+				853ADFE91D49FD2200F05271 /* 2000px-BMW.png */,
 				853ADFB71D48E08F00F05271 /* AppDelegate.swift */,
 				853ADFB91D48E08F00F05271 /* FirstViewController.swift */,
 				853ADFE71D48F7EA00F05271 /* SkillSpeichernModel.swift */,
@@ -237,6 +240,7 @@
 			files = (
 				853ADFC41D48E08F00F05271 /* LaunchScreen.storyboard in Resources */,
 				853ADFC11D48E08F00F05271 /* Assets.xcassets in Resources */,
+				853ADFEA1D49FD2200F05271 /* 2000px-BMW.png in Resources */,
 				853ADFBF1D48E08F00F05271 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var Vorname: UITextField!
     @IBOutlet weak var Nachname: UITextField!
@@ -24,33 +24,28 @@ class FirstViewController: UIViewController {
         Email.text=""
         Skill.text=""
          Speichernerfolgreich.text=""
+        self.view.endEditing(true)
         
     }
     var mySkillSpeichern = SkillSpeichernModel()
     
-   // func textFieldShouldReturn(textField: UITextField) -> Bool {
-    //    Skill.resignFirstResponder()
-     //   return true
-   // }
+   //func textFieldShouldReturn(textField: UITextField) -> Bool {
+    //textField.resignFirstResponder()
+    //return true
+    //}
     
-   // override func viewDidLoad(){
-     //   super.viewDidLoad()
-      //  Skill.delegate = self
-       // Skill.text = bi
-   // }
-
-    
-    
-
-    @IBAction func TapGesture:(NSSet *)touches withEvent:(UIEvent *)event{
-        Speichernerfolgreich.text=""
-        UITouch *touch = [[event allTouches] anyObject];
-        if ([_textField isFirstResponder] && [touch view] != _textField) {
-            [_textField resignFirstResponder];
-        }
-        [super touchesBegan:touches withEvent:event];
-        
+    //override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+     /*   Vorname.resignFirstResponder()
+        self.view.endEditing(true)
     }
+*/
+    
+    
+    @IBAction func TapGesture(sender: AnyObject) {
+        self.view.endEditing(true)
+    }
+
+
     
     @IBAction func Speichern(sender: AnyObject) {
 
@@ -69,6 +64,8 @@ class FirstViewController: UIViewController {
            // UIAlertAction (title: "Erfolg", style: UIAlertActionStyle, handler: <#T##((UIAlertAction) -> Void)?##((UIAlertAction) -> Void)?##(UIAlertAction) -> Void#>)
         Skill.text=""
         Speichernerfolgreich.text="Skill erfasst"
+            
+            self.view.endEditing(true)
         }
         }
         
