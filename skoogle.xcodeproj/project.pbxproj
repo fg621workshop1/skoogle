@@ -17,6 +17,8 @@
 		853ADFDA1D48E08F00F05271 /* skoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFD91D48E08F00F05271 /* skoogleTests.swift */; };
 		853ADFE81D48F7EA00F05271 /* SkillSpeichernModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFE71D48F7EA00F05271 /* SkillSpeichernModel.swift */; };
 		853ADFEA1D49FD2200F05271 /* 2000px-BMW.png in Resources */ = {isa = PBXBuildFile; fileRef = 853ADFE91D49FD2200F05271 /* 2000px-BMW.png */; };
+		B7BA9C4A1D4A02E7008EBA82 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA9C491D4A02E7008EBA82 /* Account.swift */; };
+		B7BA9C4C1D4A0301008EBA82 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BA9C4B1D4A0301008EBA82 /* Skill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		853ADFDB1D48E08F00F05271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		853ADFE71D48F7EA00F05271 /* SkillSpeichernModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillSpeichernModel.swift; sourceTree = "<group>"; };
 		853ADFE91D49FD2200F05271 /* 2000px-BMW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2000px-BMW.png"; sourceTree = "<group>"; };
+		B7BA9C491D4A02E7008EBA82 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		B7BA9C4B1D4A0301008EBA82 /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				853ADFC01D48E08F00F05271 /* Assets.xcassets */,
 				853ADFC21D48E08F00F05271 /* LaunchScreen.storyboard */,
 				853ADFC51D48E08F00F05271 /* Info.plist */,
+				B7BA9C491D4A02E7008EBA82 /* Account.swift */,
+				B7BA9C4B1D4A0301008EBA82 /* Skill.swift */,
 			);
 			name = skoogle;
 			path = "Skillmaster 100";
@@ -269,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7BA9C4A1D4A02E7008EBA82 /* Account.swift in Sources */,
 				853ADFBC1D48E08F00F05271 /* SecondViewController.swift in Sources */,
 				853ADFE81D48F7EA00F05271 /* SkillSpeichernModel.swift in Sources */,
+				B7BA9C4C1D4A0301008EBA82 /* Skill.swift in Sources */,
 				853ADFB81D48E08F00F05271 /* AppDelegate.swift in Sources */,
 				853ADFBA1D48E08F00F05271 /* FirstViewController.swift in Sources */,
 			);
