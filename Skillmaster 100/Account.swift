@@ -16,4 +16,6 @@ class Account: NSObject {
     var email: String = ""
     var pwd: String = ""
     var id: Int = 0
+    var level: Int = 0
+    var skill: String = ""
 }
