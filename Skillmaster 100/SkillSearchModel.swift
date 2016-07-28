@@ -14,7 +14,7 @@ class SkillSearchModel: NSObject {
     func readAccountsForSkill (aSkill:String) -> [Account]{
         var accounts = [Account]()
         
-        let URL = "http://62.155.157.99:3030/accounts?skill=\(aSkill)"
+        let URL = "http://plesche.my-wan.de:3030/accounts?skill=\(aSkill)"
         print (URL)
         
         let readAccountsRequest = NSMutableURLRequest(URL: NSURL(string: URL)!)
