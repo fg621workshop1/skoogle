@@ -10,7 +10,7 @@ import UIKit
 
 class SkillSpeichernModel: NSObject {
     
-    let baseURL = "http://62.155.157.99:3030/"
+    let baseURL = "http://plesche.my-wan.de:3030/"
     let accountResource = "account/"
     let accountsResource = "accounts/"
     let skillResource = "skill/"

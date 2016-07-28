@@ -11,10 +11,10 @@ import UIKit
 class SkillSearchModel: NSObject {
     
     
-    class func readAccountsForSkill (aSkill:String) -> [Account]{
+    func readAccountsForSkill (aSkill:String) -> [Account]{
         var accounts = [Account]()
         
-        let URL = "http://62.155.157.99:3030/accounts?skill=\(aSkill)"
+        let URL = "http://plesche.my-wan.de:3030/accounts?skill=\(aSkill)"
         print (URL)
         
         let readAccountsRequest = NSMutableURLRequest(URL: NSURL(string: URL)!)
@@ -49,9 +49,9 @@ class SkillSearchModel: NSObject {
             } catch {
                 print(error)
             }
-            
-        })
             semaphore.signal();
+        })
+            
         
         
         task.resume()
