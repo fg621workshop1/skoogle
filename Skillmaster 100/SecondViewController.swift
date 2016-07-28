@@ -19,7 +19,7 @@ class SecondViewController: UIViewController {
         
         
         //var accounts = skillModel.readAccountsForSkill(SkillEingabe.text)
-        
+        SkillSearchModel.readAccountsForSkill(SkillEingabe.text!)
         
         // Dictionary in SkillSearchResult anzeigen
         // Return: „name“, „surname“, „email“, „skill“, „level“ -> Inhalt jeder Zeile für Darstellung in Table SkillSearchResult
