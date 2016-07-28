@@ -24,7 +24,7 @@ class SkillSpeichernModel: NSObject {
         var account = getAccountByEmail(Email)
         if(account.id == 0) {
             print("Lege Account an " + Email)
-            //account = createAccount(Vorname, nachname: Nachname, email: Email)
+            account = createAccount(Vorname, nachname: Nachname, email: Email)
         }
         
         if(account.id == 0) {
@@ -51,6 +51,8 @@ class SkillSpeichernModel: NSObject {
         
         var account = Account()
         
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) { () -> Void in
+        
         let task = session.dataTaskWithRequest(request) { (data, response, error) -> Void in
             if let data = data {
                 let response = NSString(data: data, encoding: NSUTF8StringEncoding)
@@ -71,8 +73,13 @@ class SkillSpeichernModel: NSObject {
                     print("an error ocurred.")
                 }
             }
+            self.semaphore.signal()
         }
-        task.resume()
+            
+            task.resume()
+        }
+        
+        semaphore.wait()
         return account
         
     }
