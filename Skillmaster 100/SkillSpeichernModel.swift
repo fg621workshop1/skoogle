@@ -16,13 +16,15 @@ class SkillSpeichernModel: NSObject {
     let skillResource = "skill/"
     let skillsResource = "skills/"
     let accountParams = "?email="
+    let semaphore = Semaphore(value: 0)
     
     func SkillSpeichern (Vorname:String, Nachname:String, Email:String, SkillName:String, Level:Int) -> Bool{
    
         // Account anhand E-Mail holen
         var account = getAccountByEmail(Email)
         if(account.id == 0) {
-            account = createAccount(Vorname, nachname: Nachname, email: Email)
+            print("Lege Account an " + Email)
+            //account = createAccount(Vorname, nachname: Nachname, email: Email)
         }
         
         if(account.id == 0) {
@@ -62,21 +64,17 @@ class SkillSpeichernModel: NSObject {
                     
                     if(accounts.count > 0) {
                         account = accounts[0]
+                        print("Account gefunden " + account.email)
                     }
-                    
                 }
                 catch {
                     print("an error ocurred.")
                 }
             }
         }
-        
         task.resume()
-        
-        
-        
-        
         return account
+        
     }
     
     func saveSkill(skill:Skill) -> Bool {
@@ -109,12 +107,18 @@ class SkillSpeichernModel: NSObject {
         do {
             let jsonDict = try NSJSONSerialization.dataWithJSONObject(dict, options: .PrettyPrinted)
             request.HTTPBody = jsonDict
-            let task = NSURLSession.sharedSession().dataTaskWithRequest(request) { (data, response, error) -> Void in }
-            task.resume()
+            dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) { () -> Void in
+                let task = NSURLSession.sharedSession().dataTaskWithRequest(request) {
+                    (data, response, error) -> Void in
+                    self.semaphore.signal();
+                }
+                task.resume()
+            }
         } catch {
             print("an error ocurred.")
         }
         
+        semaphore.wait();
         return getAccountByEmail(email)
     }
 
