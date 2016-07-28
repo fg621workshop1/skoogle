@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58BCC3D21D4A0249005D0AFE /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCC3D11D4A0249005D0AFE /* Converter.swift */; };
 		853ADFB81D48E08F00F05271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFB71D48E08F00F05271 /* AppDelegate.swift */; };
 		853ADFBA1D48E08F00F05271 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFB91D48E08F00F05271 /* FirstViewController.swift */; };
 		853ADFBC1D48E08F00F05271 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFBB1D48E08F00F05271 /* SecondViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58BCC3D11D4A0249005D0AFE /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		853ADFB41D48E08F00F05271 /* skoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		853ADFB71D48E08F00F05271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		853ADFB91D48E08F00F05271 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 				B7BA9C4C1D4A0301008EBA82 /* Skill.swift in Sources */,
 				853ADFB81D48E08F00F05271 /* AppDelegate.swift in Sources */,
 				853ADFBA1D48E08F00F05271 /* FirstViewController.swift in Sources */,
+				58BCC3D21D4A0249005D0AFE /* Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
