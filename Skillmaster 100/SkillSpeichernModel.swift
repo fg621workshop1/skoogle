@@ -20,7 +20,10 @@ class SkillSpeichernModel: NSObject {
     func SkillSpeichern (Vorname:String, Nachname:String, Email:String, SkillName:String, Level:Int) -> Bool{
    
         // Account anhand E-Mail holen
-        let account = getAccountByEmail(Email)
+        var account = getAccountByEmail(Email)
+        if(account.id == 0) {
+            account = createAccount(Vorname, nachname: Nachname, email: Email)
+        }
         
         //Skill zu der UserID speichern
         let skill = Skill()
@@ -50,10 +53,11 @@ class SkillSpeichernModel: NSObject {
                     let resp = try NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers)
                     print(resp)
                     
-                    let accounts = self.dummyMapper(data)
-                    account = accounts[0]
+                    let accounts = ObjectConverter.convertToAccounts(data)
                     
-                    
+                    if(accounts.count > 0) {
+                        account = accounts[0]
+                    }
                     
                 }
                 catch {
@@ -88,6 +92,11 @@ class SkillSpeichernModel: NSObject {
         
         return true
         
+    }
+    
+    func createAccount(vorname:String, nachname:String, email:String) -> Account {
+        print("Account creation")
+        return Account()
     }
     
     func dummyMapper(data:NSData) -> Array<Account> {
