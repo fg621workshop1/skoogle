@@ -1,5 +1,5 @@
 //
-//  Converter.swift
+//  ObjectConverter.swift
 //  skoogle
 //
 //  Created by Wuerth Alexander, FG-621 on 28.07.16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Converter: NSObject {
+class ObjectConverter: NSObject {
 
     class func parseJSON(inputData: NSData) -> Array<NSDictionary>{
         var result: Array<NSDictionary> = Array<NSDictionary>()
@@ -43,4 +43,5 @@ class Converter: NSObject {
         }
         return accountList
     }
+
 }
