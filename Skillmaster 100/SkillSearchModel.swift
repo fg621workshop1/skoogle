@@ -9,19 +9,11 @@
 import UIKit
 
 class SkillSearchModel: NSObject {
-    let baseURL = "http://62.155.157.99:3030/"
     
     
     func readAccountsForSkill (aSkill:String) -> [Account]{
         var accounts = [Account]()
         
-        // let baseURLAccounts = "\(baseURL)accounts"
-        
-        //let baseURLSkills = "\(baseURL)skills"
-        
-        //var skill = "java"
-        
-        // var URL = "\(baseURLAccounts)?skill=\(aSkill)"
         let URL = "http://62.155.157.99:3030/accounts?skill=\(aSkill)"
         print (URL)
         
@@ -36,14 +28,12 @@ class SkillSearchModel: NSObject {
             let datastring = NSString(data: jsonData!,encoding: NSUTF8StringEncoding)
             print(datastring)
             
-            var err: NSError
-            
             do {
-                var jsonResult: NSArray = try NSJSONSerialization.JSONObjectWithData(jsonData!, options: NSJSONReadingOptions.MutableContainers) as! NSArray
+                let jsonResult: NSArray = try NSJSONSerialization.JSONObjectWithData(jsonData!, options: NSJSONReadingOptions.MutableContainers) as! NSArray
                 
                 for i in 0 ..< jsonResult.count {
-                    var dictResult = jsonResult.objectAtIndex(i) as! NSDictionary
-                    var newAccount = Account()
+                    let dictResult = jsonResult.objectAtIndex(i) as! NSDictionary
+                    let newAccount = Account()
                     newAccount.name = dictResult.valueForKey("name") as! String
                     newAccount.email = dictResult.valueForKey("email") as! String
                     newAccount.level = dictResult.valueForKey("level") as! Int
