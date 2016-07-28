@@ -25,6 +25,11 @@ class SkillSpeichernModel: NSObject {
             account = createAccount(Vorname, nachname: Nachname, email: Email)
         }
         
+        if(account.id == 0) {
+            print("Fehler beim Account anlegen!")
+            return false
+        }
+        
         //Skill zu der UserID speichern
         let skill = Skill()
         skill.level = Level
@@ -95,17 +100,22 @@ class SkillSpeichernModel: NSObject {
     }
     
     func createAccount(vorname:String, nachname:String, email:String) -> Account {
-        print("Account creation")
-        return Account()
-    }
-    
-    func dummyMapper(data:NSData) -> Array<Account> {
-        let account = Account()
-        account.id = 2
-        let ret =  [account]
-        return ret
+        let path = baseURL + accountResource
+        let request = NSMutableURLRequest(URL: NSURL(string: path)!)
+        request.HTTPMethod = "POST"
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        let dict = ["name":vorname, "surname": nachname, "email":email, "pwd":"password"]
         
+        do {
+            let jsonDict = try NSJSONSerialization.dataWithJSONObject(dict, options: .PrettyPrinted)
+            request.HTTPBody = jsonDict
+            let task = NSURLSession.sharedSession().dataTaskWithRequest(request) { (data, response, error) -> Void in }
+            task.resume()
+        } catch {
+            print("an error ocurred.")
+        }
+        
+        return getAccountByEmail(email)
     }
-
 
 }
