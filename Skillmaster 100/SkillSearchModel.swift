@@ -11,7 +11,7 @@ import UIKit
 class SkillSearchModel: NSObject {
     
     
-    func readAccountsForSkill (aSkill:String) -> [Account]{
+    class func readAccountsForSkill (aSkill:String) -> [Account]{
         var accounts = [Account]()
         
         let URL = "http://62.155.157.99:3030/accounts?skill=\(aSkill)"
@@ -44,7 +44,7 @@ class SkillSearchModel: NSObject {
                     newAccount.skill = dictResult.valueForKey("skill") as! String
                     accounts.append(newAccount)
                 }
-                
+                print("Account :")
                 print(accounts)
             } catch {
                 print(error)
