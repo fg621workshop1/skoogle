@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58BCC3D21D4A0249005D0AFE /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCC3D11D4A0249005D0AFE /* Converter.swift */; };
 		853ADFB81D48E08F00F05271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFB71D48E08F00F05271 /* AppDelegate.swift */; };
 		853ADFBA1D48E08F00F05271 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFB91D48E08F00F05271 /* FirstViewController.swift */; };
 		853ADFBC1D48E08F00F05271 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFBB1D48E08F00F05271 /* SecondViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58BCC3D11D4A0249005D0AFE /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		853ADFB41D48E08F00F05271 /* skoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		853ADFB71D48E08F00F05271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		853ADFB91D48E08F00F05271 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				853ADFC01D48E08F00F05271 /* Assets.xcassets */,
 				853ADFC21D48E08F00F05271 /* LaunchScreen.storyboard */,
 				853ADFC51D48E08F00F05271 /* Info.plist */,
+				58BCC3D11D4A0249005D0AFE /* Converter.swift */,
 			);
 			name = skoogle;
 			path = "Skillmaster 100";
@@ -273,6 +276,7 @@
 				853ADFE81D48F7EA00F05271 /* SkillSpeichernModel.swift in Sources */,
 				853ADFB81D48E08F00F05271 /* AppDelegate.swift in Sources */,
 				853ADFBA1D48E08F00F05271 /* FirstViewController.swift in Sources */,
+				58BCC3D21D4A0249005D0AFE /* Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
