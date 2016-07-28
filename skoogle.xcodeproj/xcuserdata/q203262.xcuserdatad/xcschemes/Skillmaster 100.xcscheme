@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "853ADFB31D48E08F00F05271"
-            BuildableName = "Skillmaster 100.app"
-            BlueprintName = "Skillmaster 100"
-            ReferencedContainer = "container:Skillmaster 100.xcodeproj">
+            BuildableName = "skoogle.app"
+            BlueprintName = "skoogle"
+            ReferencedContainer = "container:skoogle.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "853ADFB31D48E08F00F05271"
-            BuildableName = "Skillmaster 100.app"
-            BlueprintName = "Skillmaster 100"
-            ReferencedContainer = "container:Skillmaster 100.xcodeproj">
+            BuildableName = "skoogle.app"
+            BlueprintName = "skoogle"
+            ReferencedContainer = "container:skoogle.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
