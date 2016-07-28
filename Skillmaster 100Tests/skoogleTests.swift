@@ -1,15 +1,15 @@
 //
-//  Skillmaster_100Tests.swift
-//  Skillmaster 100Tests
+//  skoogleTests.swift
+//  skoogleTests
 //
 //  Created by Grobel Kirsti, FG-621 on 27.07.16.
 //  Copyright © 2016 bmw. All rights reserved.
 //
 
 import XCTest
-@testable import Skillmaster_100
+@testable import skoogle
 
-class Skillmaster_100Tests: XCTestCase {
+class skoogleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

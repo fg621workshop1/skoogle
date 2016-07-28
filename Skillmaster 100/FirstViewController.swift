@@ -1,6 +1,6 @@
 //
 //  FirstViewController.swift
-//  Skillmaster 100
+//  skoogle
 //
 //  Created by Grobel Kirsti, FG-621 on 27.07.16.
 //  Copyright © 2016 bmw. All rights reserved.

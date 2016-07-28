@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Skillmaster 100.xcodeproj">
+      location = "self:/Users/christian/git/skoogle/skoogle.xcodeproj">
    </FileRef>
 </Workspace>

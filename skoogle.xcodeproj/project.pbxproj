@@ -13,8 +13,8 @@
 		853ADFBF1D48E08F00F05271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853ADFBD1D48E08F00F05271 /* Main.storyboard */; };
 		853ADFC11D48E08F00F05271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853ADFC01D48E08F00F05271 /* Assets.xcassets */; };
 		853ADFC41D48E08F00F05271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853ADFC21D48E08F00F05271 /* LaunchScreen.storyboard */; };
-		853ADFCF1D48E08F00F05271 /* Skillmaster_100Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFCE1D48E08F00F05271 /* Skillmaster_100Tests.swift */; };
-		853ADFDA1D48E08F00F05271 /* Skillmaster_100UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFD91D48E08F00F05271 /* Skillmaster_100UITests.swift */; };
+		853ADFCF1D48E08F00F05271 /* skoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFCE1D48E08F00F05271 /* skoogleTests.swift */; };
+		853ADFDA1D48E08F00F05271 /* skoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFD91D48E08F00F05271 /* skoogleTests.swift */; };
 		853ADFE81D48F7EA00F05271 /* SkillSpeichernModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853ADFE71D48F7EA00F05271 /* SkillSpeichernModel.swift */; };
 		853ADFEA1D49FD2200F05271 /* 2000px-BMW.png in Resources */ = {isa = PBXBuildFile; fileRef = 853ADFE91D49FD2200F05271 /* 2000px-BMW.png */; };
 /* End PBXBuildFile section */
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		853ADFB41D48E08F00F05271 /* Skillmaster 100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Skillmaster 100.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		853ADFB41D48E08F00F05271 /* skoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		853ADFB71D48E08F00F05271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		853ADFB91D48E08F00F05271 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		853ADFBB1D48E08F00F05271 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -45,11 +45,11 @@
 		853ADFC01D48E08F00F05271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		853ADFC31D48E08F00F05271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		853ADFC51D48E08F00F05271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		853ADFCA1D48E08F00F05271 /* Skillmaster 100Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skillmaster 100Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		853ADFCE1D48E08F00F05271 /* Skillmaster_100Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillmaster_100Tests.swift; sourceTree = "<group>"; };
+		853ADFCA1D48E08F00F05271 /* skoogle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skoogle.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853ADFCE1D48E08F00F05271 /* skoogleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skoogleTests.swift; sourceTree = "<group>"; };
 		853ADFD01D48E08F00F05271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		853ADFD51D48E08F00F05271 /* Skillmaster 100UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Skillmaster 100UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		853ADFD91D48E08F00F05271 /* Skillmaster_100UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillmaster_100UITests.swift; sourceTree = "<group>"; };
+		853ADFD51D48E08F00F05271 /* skoogle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skoogle.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853ADFD91D48E08F00F05271 /* skoogleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skoogleTests.swift; sourceTree = "<group>"; };
 		853ADFDB1D48E08F00F05271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		853ADFE71D48F7EA00F05271 /* SkillSpeichernModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillSpeichernModel.swift; sourceTree = "<group>"; };
 		853ADFE91D49FD2200F05271 /* 2000px-BMW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2000px-BMW.png"; sourceTree = "<group>"; };
@@ -83,9 +83,9 @@
 		853ADFAB1D48E08F00F05271 = {
 			isa = PBXGroup;
 			children = (
-				853ADFB61D48E08F00F05271 /* Skillmaster 100 */,
-				853ADFCD1D48E08F00F05271 /* Skillmaster 100Tests */,
-				853ADFD81D48E08F00F05271 /* Skillmaster 100UITests */,
+				853ADFB61D48E08F00F05271 /* skoogle */,
+				853ADFCD1D48E08F00F05271 /* skoogleTests */,
+				853ADFD81D48E08F00F05271 /* skoogleUITests */,
 				853ADFB51D48E08F00F05271 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,14 +93,14 @@
 		853ADFB51D48E08F00F05271 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				853ADFB41D48E08F00F05271 /* Skillmaster 100.app */,
-				853ADFCA1D48E08F00F05271 /* Skillmaster 100Tests.xctest */,
-				853ADFD51D48E08F00F05271 /* Skillmaster 100UITests.xctest */,
+				853ADFB41D48E08F00F05271 /* skoogle.app */,
+				853ADFCA1D48E08F00F05271 /* skoogle.xctest */,
+				853ADFD51D48E08F00F05271 /* skoogle.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		853ADFB61D48E08F00F05271 /* Skillmaster 100 */ = {
+		853ADFB61D48E08F00F05271 /* skoogle */ = {
 			isa = PBXGroup;
 			children = (
 				853ADFE91D49FD2200F05271 /* 2000px-BMW.png */,
@@ -113,33 +113,36 @@
 				853ADFC21D48E08F00F05271 /* LaunchScreen.storyboard */,
 				853ADFC51D48E08F00F05271 /* Info.plist */,
 			);
+			name = skoogle;
 			path = "Skillmaster 100";
 			sourceTree = "<group>";
 		};
-		853ADFCD1D48E08F00F05271 /* Skillmaster 100Tests */ = {
+		853ADFCD1D48E08F00F05271 /* skoogleTests */ = {
 			isa = PBXGroup;
 			children = (
-				853ADFCE1D48E08F00F05271 /* Skillmaster_100Tests.swift */,
+				853ADFCE1D48E08F00F05271 /* skoogleTests.swift */,
 				853ADFD01D48E08F00F05271 /* Info.plist */,
 			);
+			name = skoogleTests;
 			path = "Skillmaster 100Tests";
 			sourceTree = "<group>";
 		};
-		853ADFD81D48E08F00F05271 /* Skillmaster 100UITests */ = {
+		853ADFD81D48E08F00F05271 /* skoogleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				853ADFD91D48E08F00F05271 /* Skillmaster_100UITests.swift */,
+				853ADFD91D48E08F00F05271 /* skoogleTests.swift */,
 				853ADFDB1D48E08F00F05271 /* Info.plist */,
 			);
+			name = skoogleUITests;
 			path = "Skillmaster 100UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		853ADFB31D48E08F00F05271 /* Skillmaster 100 */ = {
+		853ADFB31D48E08F00F05271 /* skoogle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 853ADFDE1D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100" */;
+			buildConfigurationList = 853ADFDE1D48E08F00F05271 /* Build configuration list for PBXNativeTarget "skoogle" */;
 			buildPhases = (
 				853ADFB01D48E08F00F05271 /* Sources */,
 				853ADFB11D48E08F00F05271 /* Frameworks */,
@@ -149,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = "Skillmaster 100";
+			name = skoogle;
 			productName = "Skillmaster 100";
-			productReference = 853ADFB41D48E08F00F05271 /* Skillmaster 100.app */;
+			productReference = 853ADFB41D48E08F00F05271 /* skoogle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		853ADFC91D48E08F00F05271 /* Skillmaster 100Tests */ = {
+		853ADFC91D48E08F00F05271 /* skoogleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 853ADFE11D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100Tests" */;
+			buildConfigurationList = 853ADFE11D48E08F00F05271 /* Build configuration list for PBXNativeTarget "skoogleTests" */;
 			buildPhases = (
 				853ADFC61D48E08F00F05271 /* Sources */,
 				853ADFC71D48E08F00F05271 /* Frameworks */,
@@ -167,14 +170,14 @@
 			dependencies = (
 				853ADFCC1D48E08F00F05271 /* PBXTargetDependency */,
 			);
-			name = "Skillmaster 100Tests";
+			name = skoogleTests;
 			productName = "Skillmaster 100Tests";
-			productReference = 853ADFCA1D48E08F00F05271 /* Skillmaster 100Tests.xctest */;
+			productReference = 853ADFCA1D48E08F00F05271 /* skoogle.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		853ADFD41D48E08F00F05271 /* Skillmaster 100UITests */ = {
+		853ADFD41D48E08F00F05271 /* skoogleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 853ADFE41D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100UITests" */;
+			buildConfigurationList = 853ADFE41D48E08F00F05271 /* Build configuration list for PBXNativeTarget "skoogleUITests" */;
 			buildPhases = (
 				853ADFD11D48E08F00F05271 /* Sources */,
 				853ADFD21D48E08F00F05271 /* Frameworks */,
@@ -185,9 +188,9 @@
 			dependencies = (
 				853ADFD71D48E08F00F05271 /* PBXTargetDependency */,
 			);
-			name = "Skillmaster 100UITests";
+			name = skoogleUITests;
 			productName = "Skillmaster 100UITests";
-			productReference = 853ADFD51D48E08F00F05271 /* Skillmaster 100UITests.xctest */;
+			productReference = 853ADFD51D48E08F00F05271 /* skoogle.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 853ADFAF1D48E08F00F05271 /* Build configuration list for PBXProject "Skillmaster 100" */;
+			buildConfigurationList = 853ADFAF1D48E08F00F05271 /* Build configuration list for PBXProject "skoogle" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				853ADFB31D48E08F00F05271 /* Skillmaster 100 */,
-				853ADFC91D48E08F00F05271 /* Skillmaster 100Tests */,
-				853ADFD41D48E08F00F05271 /* Skillmaster 100UITests */,
+				853ADFB31D48E08F00F05271 /* skoogle */,
+				853ADFC91D48E08F00F05271 /* skoogleTests */,
+				853ADFD41D48E08F00F05271 /* skoogleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				853ADFCF1D48E08F00F05271 /* Skillmaster_100Tests.swift in Sources */,
+				853ADFCF1D48E08F00F05271 /* skoogleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				853ADFDA1D48E08F00F05271 /* Skillmaster_100UITests.swift in Sources */,
+				853ADFDA1D48E08F00F05271 /* skoogleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +297,12 @@
 /* Begin PBXTargetDependency section */
 		853ADFCC1D48E08F00F05271 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 853ADFB31D48E08F00F05271 /* Skillmaster 100 */;
+			target = 853ADFB31D48E08F00F05271 /* skoogle */;
 			targetProxy = 853ADFCB1D48E08F00F05271 /* PBXContainerItemProxy */;
 		};
 		853ADFD71D48E08F00F05271 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 853ADFB31D48E08F00F05271 /* Skillmaster 100 */;
+			target = 853ADFB31D48E08F00F05271 /* skoogle */;
 			targetProxy = 853ADFD61D48E08F00F05271 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -414,7 +417,7 @@
 				INFOPLIST_FILE = "Skillmaster 100/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = skoogle;
 			};
 			name = Debug;
 		};
@@ -425,7 +428,7 @@
 				INFOPLIST_FILE = "Skillmaster 100/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = skoogle;
 			};
 			name = Release;
 		};
@@ -436,8 +439,8 @@
 				INFOPLIST_FILE = "Skillmaster 100Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skillmaster 100.app/Skillmaster 100";
+				PRODUCT_NAME = skoogle;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skoogle.app/skoogle";
 			};
 			name = Debug;
 		};
@@ -448,8 +451,8 @@
 				INFOPLIST_FILE = "Skillmaster 100Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skillmaster 100.app/Skillmaster 100";
+				PRODUCT_NAME = skoogle;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skoogle.app/skoogle";
 			};
 			name = Release;
 		};
@@ -459,7 +462,7 @@
 				INFOPLIST_FILE = "Skillmaster 100UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = skoogle;
 				TEST_TARGET_NAME = "Skillmaster 100";
 			};
 			name = Debug;
@@ -470,7 +473,7 @@
 				INFOPLIST_FILE = "Skillmaster 100UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bmw.Skillmaster-100UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = skoogle;
 				TEST_TARGET_NAME = "Skillmaster 100";
 			};
 			name = Release;
@@ -478,7 +481,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		853ADFAF1D48E08F00F05271 /* Build configuration list for PBXProject "Skillmaster 100" */ = {
+		853ADFAF1D48E08F00F05271 /* Build configuration list for PBXProject "skoogle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				853ADFDC1D48E08F00F05271 /* Debug */,
@@ -487,29 +490,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		853ADFDE1D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100" */ = {
+		853ADFDE1D48E08F00F05271 /* Build configuration list for PBXNativeTarget "skoogle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				853ADFDF1D48E08F00F05271 /* Debug */,
 				853ADFE01D48E08F00F05271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		853ADFE11D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100Tests" */ = {
+		853ADFE11D48E08F00F05271 /* Build configuration list for PBXNativeTarget "skoogleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				853ADFE21D48E08F00F05271 /* Debug */,
 				853ADFE31D48E08F00F05271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		853ADFE41D48E08F00F05271 /* Build configuration list for PBXNativeTarget "Skillmaster 100UITests" */ = {
+		853ADFE41D48E08F00F05271 /* Build configuration list for PBXNativeTarget "skoogleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				853ADFE51D48E08F00F05271 /* Debug */,
 				853ADFE61D48E08F00F05271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
